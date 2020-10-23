@@ -1,0 +1,145 @@
+#header{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    z-index: 30;
+    position: relative;
+    background-size: cover;
+    background-position: 50% 0;
+    transition: background-color .3s, opacity .3s;
+    border: solid red;
+    width: 100%; 
+
+}
+.gap{
+    display: block;
+    height: auto;
+    padding-top: 40px;
+}
+.category{
+    border: solid rgb(245, 170, 7);
+}
+.product{
+    border: solid yellowgreen;
+}
+#logo{
+    width: 156px;
+    line-height: 1;
+    padding-left: 10px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    margin: auto;
+}
+.menu-item-left{
+    color: gray;
+    background-color: white;
+    font-weight: bold;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    transition: background-color .3s;
+}
+.menu-item-right{
+    color: gray;
+    background-color: white;
+    font-weight: bold;
+    display: inline-block;
+    margin: 0 10;
+    padding: 0;
+    position: relative;
+    transition: background-color .3s;
+}
+.dropdown:hover>.dropdown-menu {
+    display: block;
+  }
+  .dropdown>.dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+      pointer-events: none;
+  }
+  .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color:white !important;
+    border: white !important;
+    margin: 0 0;
+    
+}
+.title-dropdown{
+    margin: 0;
+    padding: 0;
+    font-weight:bold;
+    font-size:12px;
+    white-space: nowrap;
+}
+.detail-dropdown{
+    color: gray;
+}
+hr{
+    margin: 0;
+    padding: 0;
+}
+.icon-square{
+    width: 8px;
+    vertical-align: baseline;
+}
+.search{
+    border: rgb(141, 141, 141) solid 1px;
+    border-radius:3px;
+}
+/* .section-title-center span {
+    margin: 0 15px;
+}
+.section-title-center span, .section-title-bold-center span {
+    text-align: center;
+}
+.section-title span {
+    text-transform: uppercase;
+}
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6, .heading-font, .banner h1, .banner h2 {
+    font-weight: 700;
+}
+h1, h2, h3, h4, h5, h6, .heading-font, .off-canvas-center .nav-sidebar.nav-vertical > li > a {
+    font-family: "Roboto", sans-serif;
+}
+.h3, h3 {
+    font-size: 1.25em;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #555;
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: .5em;
+    text-rendering: optimizeSpeed;
+}
+h3 {
+    font-size: 1.17em;
+    font-weight: bold;
+}
+body {
+    line-height: 1.6;
+    color: #777;
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+}
+b, strong {
+    font-weight: bolder;
+}
+.col-inner {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -ms-flex: 1 0 auto;
+    flex: 1 0 auto;
+}
+div {
+    display: block;
+} */
